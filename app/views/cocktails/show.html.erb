@@ -1,1 +1,2 @@
-show.html.erb
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+<%= image_tag @cocktail.photo.url(:bright_face) %>
